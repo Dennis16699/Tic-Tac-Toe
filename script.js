@@ -128,20 +128,6 @@ function generateAnimatedCross() {
             </path>
         </svg>
     `;
-    const sgHTML = `
-        <svg width="${width}" height="${height}" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10,10 L90,90 M90,10 L10,90" fill="none" stroke="${color}" stroke-width="8">
-                <animate attributeName="stroke-dasharray" from="0,200" to="200,0" dur="${animationDuration}s" fill="freeze" />
-            </path>
-        </svg>
-    `;
-    const sggHTML = `
-        <svg width="${width}" height="${height}" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10,10 L90,90 M90,10 L10,90" fill="none" stroke="${color}" stroke-width="8">
-                <animate attributeName="stroke-dasharray" from="0,200" to="200,0" dur="${animationDuration}s" fill="freeze" />
-            </path>
-        </svg>
-    `;
 
     return svgHTML;
 }
