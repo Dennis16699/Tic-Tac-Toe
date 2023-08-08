@@ -74,3 +74,11 @@ button {
 button:hover {
   background: linear-gradient(to left, #f8fafb, #093a54);
 }
+
+@media(max-width: 400px){
+
+  td{
+    width: 75px;
+    height: 90px;
+  }
+}
