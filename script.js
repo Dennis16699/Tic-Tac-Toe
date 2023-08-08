@@ -132,3 +132,15 @@ function generateAnimatedCross() {
     return svgHTML;
 }
 
+
+function restart() {
+    // Setze das Spielfeld zurück
+    fields = [
+        null, null, null,
+        null, null, null,
+        null, null, null,
+    ];
+
+    // Rendere das Spielfeld neu
+    render();
+}

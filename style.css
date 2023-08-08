@@ -51,3 +51,26 @@ table {
   table tr td:last-child {
     border-right: 0;
   }
+
+ 
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right, #f8fafb, #093a54);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to left, #f8fafb, #093a54);
+}
